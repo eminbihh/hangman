@@ -64,10 +64,7 @@ p {
   background: #fff;
   color: #114690;
   cursor: pointer;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
   border-radius: 5px;
-  -khtml-border-radius: 5px;
   border: solid 1px #fff;
 }
 #alphabet li:hover {
@@ -95,20 +92,14 @@ p {
 .active {
   opacity: 0.4;
   filter: alpha(opacity=40);
-  -moz-transition: all 1s ease-in;
-  -moz-transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
+
   cursor: default;
 }
 .active:hover {
-  -moz-transition: all 1s ease-in;
-  -moz-transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
+
   opacity: 0.4;
   filter: alpha(opacity=40);
-  -moz-transition: all 1s ease-in;
-  -moz-transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
+ 
 }
 
 #mylives {
@@ -118,10 +109,7 @@ p {
 }
 
 button {
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
   border-radius: 5px;
-  -khtml-border-radius: 5px;
   background: #114690;
   color: #fff;
   border: solid 1px #fff;
@@ -134,8 +122,6 @@ button {
   outline: none;
 }
 button:hover {
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background: #fff;
   border: solid 1px #fff;
